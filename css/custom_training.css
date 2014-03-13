@@ -1,4 +1,32 @@
 
+/*line 4541*/
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: DFLiJinHeiW8-GB,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+body{
+	background-color: #E0E4CC;
+}
+
+.navbar{
+background:#00588E;
+}
+
+.navbar .navbar-nav > li > a{
+	color:#ffffff;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #00588E;
+  background-color: #F5C33D;
+}
+
+.navbar.navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #00588E;
+  background-color: #F5C33D;
+}
+
 	  
 .sidebar-nav {
 padding: 9px 0;
@@ -39,10 +67,6 @@ border-radius: 6px;
 
 }
 
-.nav .nav-header {
-font-size: 18px;
-color:#FF9900;
-}
 .well.active{
 	background-color: #FFFFFF;
 }
