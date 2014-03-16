@@ -4,8 +4,8 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <!-- Bootstrap -->
-    <link href="../bootstrap-3.0.3/dist/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="../css/custom_training.css">
+    <link href="../bootstrap-3.0.3/dist/css/bootstrap_1.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="../css/custom_class.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -15,102 +15,69 @@
   </head>
   <body>
   <!--Nav Bar, Top, Horizon-->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <ul class="nav navbar-nav">
-      <li><a href="new.html" class="navbar-brand">
-      <img src="../pic/logo.gif" width="21px" height="30px"></a></li>
-      <li><a href="3.12.html">主页</a></li>
-      <li><a href="training.html">培训</a></li>
-      <li class="active"><a href="#.html">讲堂</a></li>
-      <li><a href="bbs.html">论坛</a></li>
-      <li><a href="podcast.html">播客</a></li>
-      <li><a href="store.html">商城</a></li>
-      <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-              <li class="socials">123</li>
-              <li class="socials"><g:plusone annotation="inline" width="150"></g:plusone></li>
-          </ul>
-      </li>
-      </ul>
-  </nav>
-
-
-<div class="container-fluid">
-  <div class="row">
-    <!--Nav Bar, Left, Vertical-->
-    <div class="col-lg-3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="active"><a href="#">全部</a></li>
-              <li><a href="#">跑步</a></li>
-              <li><a href="#">体能</a></li>
-              <li><a href="#">篮球</a></li>
-              <li><a href="#">足球</a></li>
-              <li><a href="#">网球</a></li>
-           </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        <div class="col-lg-9">
-          <div class="leaderboard">
-            <h1>本期主讲</h1>
-            <h1></h1>
-            <div class="row">
-              <div class= "col-lg-4">
-              <img height="300px" width="200px" src="../pic/expert1.jpg"></img>
-              </div>
-              <div class="col-lg-8">
-              <h2>姓名： 太宰治</h2>
-              <h3>日本战后文学家，每次自杀总喜欢带一个姑娘...结果自己还死不了！</h3>
-              </div>
-            <p>并不是我让女人去死的，我也没有卷走女人的钱财。只听见我的内心深处某个角落里回荡着这低沉的、但却竭尽全力的抗议之声。随即我又转念想到，那一切都是自己的不是。而这正是我奇特的特性。
-            <a href="http://www.douban.com">查看全部</a>
-            </p>
-          </div>
-          <br></br>
-          <br></br>
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>往期精华</h2>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <ul class="unstyled">
-                <li>川端康成讲跑步</li>
-                <li>三岛由纪夫讲篮球</li>
-                <li>夏目漱石讲足球</li>
-                <li>泉镜花讲网球</li>
-              </ul>
-              
-            </div><!--/span-->
-            <div class="col-lg-4">
-                <ul class="unstyled">
-                <li>窦唯讲跑步</li>
-                <li>郑钧讲篮球</li>
-                <li>雷刚讲足球</li>
-                <li>高旗讲网球</li>
-              </ul>
-            </div><!--/span-->
-            <div class="col-lg-4">
-             <ul class="unstyled">
-                <li>超超讲跑步</li>
-                <li>林林讲篮球</li>
-                <li>褚褚讲足球</li>
-                <li>豆豆讲网球</li>
-              </ul>
-            </div><!--/span-->
-          </div><!--/row-->
-          <a class="btn btn-success btn-large" href="#">查看更多</a></p>
-          <hr />
-     <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-
-    </div><!--/.fluid-container-->
+  <nav class="navbar navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
   </div>
-</div>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav ">
+      <li><a href="./3.12.html">主页</a></li>
+      <li><a href="#">培训</a></li>
+      <li class="active"><a href="#">讲堂</a></li>
+      <li><a href="#">论坛</a></li>
+      <li><a href="#">商城</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+          <li class="divider"></li>
+          <li><a href="#">One more separated link</a></li>
+        </ul>
+      </li>
+    </ul>
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">搜索</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Link</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+  <!--Nav, Vertical-->
+  <ul class="nav nav-pills nav-stacked" style="max-width: 120px; margin-top: 100px; margin-left:165px" position:"fixed">
+  <li class="active" align="center"><a href="#">全部</a></li>
+  <li align="center"><a href="#">健康</a></li>
+  <li align="center"><a href="#">减脂</a></li>
+  <li align="center"><a href="#">增肌</a></li>
+  <li align="center"><a href="#">膳食</a></li>
+  
+  
+</ul>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
