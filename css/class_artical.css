@@ -1,0 +1,30 @@
+button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: DFLiJinHeiW8-GB,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+
+.navbar{
+	padding-left: 150px;
+	padding-right: 150px;
+
+}
+.navbar .navbar-nav >li > a{
+	font-size: 16px;
+	font-family:DFLiJinHeiW8-GB;
+}
+
+.nav >li >a{
+	font-family:DFLiJinHeiW8-GB;
+}
+
+.breadcrumb{
+	margin-left: 165px;
+	margin-right: 150px;
+}
+
+.well{
+	margin-left: 165px;
+	margin-right: 150px;
+}
+
+
+
+
